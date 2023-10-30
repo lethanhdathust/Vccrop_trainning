@@ -16,10 +16,11 @@ public class deserialization {
 
                 // Read the object
                 try {
-                    Main.Student st = (Main.Student) object.readObject();
+                    Student st = (Student) object.readObject();
                     System.out.println("Name: " + st.getName());
                 } catch (OptionalDataException e) {
                     // Handle OptionalDataException if required
+                    e.printStackTrace();
                     System.out.println("Optional data encountered during object deserialization: " + e.getMessage());
                 }
 

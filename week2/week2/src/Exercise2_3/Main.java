@@ -3,36 +3,22 @@ package Exercise2_3;
 import java.io.*;
 
 public class Main {
-    public static class Student implements Serializable{
-        String name;
 
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public Student(String name) {
-            this.name = name;
-        }
-
-        public String getName() {
-            return name;
-        }
-    }
     public static void main(String[] args) {
         try {
-            Student x= new Student("dat");
-            String d ="k";
+            Student x = new Student("dat");
+            String d = "k";
             int n = 12;
-            FileOutputStream a = new FileOutputStream("object.txt");
+            FileOutputStream object = new FileOutputStream("object.");
 
-            FileOutputStream b = new FileOutputStream("char.txt");
-            FileOutputStream c = new FileOutputStream("int.txt");
+            FileOutputStream charEx = new FileOutputStream("char.txt");
+            FileOutputStream intEx = new FileOutputStream("int.txt");
 
-            ObjectOutputStream output = new ObjectOutputStream(a);
-            ObjectOutputStream output1 = new ObjectOutputStream(b);
-            ObjectOutputStream output2 = new ObjectOutputStream(c);
-            output.writeChars(d);
-            output1.writeObject(x);
+            ObjectOutputStream output = new ObjectOutputStream(object);
+            ObjectOutputStream output1 = new ObjectOutputStream(charEx);
+            ObjectOutputStream output2 = new ObjectOutputStream(intEx);
+            output.writeObject(x);
+            output1.writeChars(d);
             output2.writeInt(n);
             output.close();
             output.flush();
@@ -47,5 +33,7 @@ public class Main {
 
 //
 
+    }
 }
-}
+
+
