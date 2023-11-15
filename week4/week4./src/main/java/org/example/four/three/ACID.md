@@ -3,7 +3,7 @@
 - A transaction is a single logical unit of work that accessed and possibly modifies the contents of a database. Transactions access data using read and write operation
 - In order to maintain consistency in a database , before and after the transaction, certain properties are followed, These are called ACID properties.
 
-![img_1.png](img_1.png) 
+![img_1.png](image/img_1.png) 
 
 - **Atomicity:** IT means that either the entire transaction takes place at once or doesn't happen at all.There is no midway transactions do not occur partially. Each transaction is considered as one unit and either runs to completion or is not executed at all.It involves the following two operations.
     Abort: If a transaction aborts, changes made to the database are not visible 
@@ -11,7 +11,7 @@
 - It also known as the "all or nothing "
   Consider the following transaction T consisting of T1 and T2: Transfer of 100 from account X to account Y. 
 
-![img_2.png](img_2.png)
+![img_2.png](image/img_2.png)
 
 - If the transaction fails after completion of T1 but before completion of T2.( say, after write(X) but before write(Y)), then the amount has been deducted from X but not added to Y. This results in an inconsistent database state. 
 
@@ -21,7 +21,7 @@
 - Isolation : 
     The intermediate state of a transaction is invisible to other transactions.As a result, transactions that run concurrently appear to be serialized.
 
-![img_3.png](img_3.png)
+![img_3.png](image/img_3.png)
 
 Suppose T has been executed till Read (Y) and then T’’ starts. As a result, interleaving of operations takes place due to which T’’ reads the correct value of X but the incorrect value of Y and sum computed by
 T’’: (X+Y = 50, 000+500=50, 500)

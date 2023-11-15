@@ -9,7 +9,7 @@ where FirstName = 'Allison' or LastName='Isaiah';
 
 ```
 - Insteads, we use the union operator, so when we split the query, SQL server will can use the index to seek.
-![img_4.png](img_4.png)
+![img_4.png](image/img_4.png)
 ```agsl
 select  BusinessEntityID,FirstName,LastName from person_fake2
 where FirstName = 'Allison'
@@ -19,4 +19,4 @@ WHERE FirstName = 'Isaiah';
 
 ```
 
-![img_5.png](img_5.png)
+![img_5.png](image/img_5.png)

@@ -8,7 +8,7 @@ where FirstName like '%l';
 
 ```
 - In here,The SQL server use the index scan to find the values ,lead to the bad performance
-![img_6.png](img_6.png)
+![img_6.png](image/img_6.png)
 
 -> Solution: running the REVERSE() function on it for easier back-searching.
 - We reverse the FirstName to the FirstNameReverse , than use the 

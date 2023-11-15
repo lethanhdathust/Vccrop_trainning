@@ -8,7 +8,7 @@
 - Availability: means that any client making a request for data gets a response, even if one or more nodes are down.It means , all working nodes in the distributed system return a valid response for any request, without exception.Every node must be able to respond in a reasonable amount of time.
 - Partition tolerance : a partition is a communication break within a distributed system - a lost or temporarily delay connection between two nodes.Partition tolerance means that the cluster must continue to work despite any amount of communication breakdowns between nodes in the system
 
-![img.png](img.png)
+![img.png](image/img.png)
 
 **3. CAP theorem NoSQL database types**
 

@@ -43,4 +43,4 @@ So the Player should have own table
 
 - We need to seperate the table like this, depend on bridging properties
 
- ![img_5.png](img_5.png)
+ ![img_5.png](image/img_5.png)

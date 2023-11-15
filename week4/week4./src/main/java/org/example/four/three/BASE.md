@@ -11,4 +11,4 @@ The rise in popularity of NoSQL databases provided a flexible and fluidity with 
 
 **2. Compare BASE abd ACID**
 
-![img_4.png](img_4.png)
+![img_4.png](image/img_4.png)
