@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "59558f98dc39bd5b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Project8.1/images/img_4.png"
-              }
-            }
-          },
-          {
             "id": "9752f3ff259d1b8d",
             "type": "leaf",
             "state": {
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project8.1/images/img_4.png",
+                "file": "Project8.1/REPORT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project8.1/images/img_4.png",
+                "file": "Project8.1/REPORT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project8.1/images/img_4.png"
+                "file": "Project8.1/REPORT.md"
               }
             }
           }
@@ -158,22 +148,21 @@
   },
   "active": "056b087eabe52fa9",
   "lastOpenFiles": [
-    "Project8.1/images/Pasted image 20240104223851.png",
-    "Project8.2/images/Pasted image 20240107130716.png",
     "consistency-report.md",
-    "Project8.1/images/img_4.png",
+    "Project8.1/REPORT.md",
+    "Project8.1/Code/images/img_4.png",
+    "Project8.1/Code/images/Pasted image 20240104223851.png",
+    "Project8.2/images/Pasted image 20240107130716.png",
     "Project8.2/REPORT.md",
     "Project8.1/Code",
-    "Project8.1/REPORT.md",
-    "Project8.1/images/Pasted image 20240105105854.png",
-    "Project8.1/images/Pasted image 20240105105736.png",
-    "Project8.1/images/Pasted image 20240104231224.png",
-    "Project8.1/images/Pasted image 20240104230332.png",
-    "Project8.1/images/Pasted image 20240104230239.png",
-    "Project8.1/images/Pasted image 20240104223846.png",
-    "Project8.1/images/img_3.png",
-    "Project8.1/images/img_1.png",
-    "Project8.1/images",
+    "Project8.1/Code/images/Pasted image 20240105105854.png",
+    "Project8.1/Code/images/Pasted image 20240105105736.png",
+    "Project8.1/Code/images/Pasted image 20240104231224.png",
+    "Project8.1/Code/images/Pasted image 20240104230332.png",
+    "Project8.1/Code/images/Pasted image 20240104230239.png",
+    "Project8.1/Code/images/Pasted image 20240104223846.png",
+    "Project8.1/Code/images/img_3.png",
+    "Project8.1/Code/images",
     "Project8.2/images",
     "Project8.2",
     "word-count-spark/Untitled.md",
