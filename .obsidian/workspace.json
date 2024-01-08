@@ -1,18 +1,20 @@
 {
   "main": {
-    "id": "510628308caf6032",
+    "id": "3834b6e64f8e587d",
     "type": "split",
     "children": [
       {
-        "id": "e348407637748686",
+        "id": "61bb5322276f56f9",
         "type": "tabs",
         "children": [
           {
-            "id": "58c3f7f98c6a15eb",
+            "id": "259b48045f0859a8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sakila-en.a4.pdf"
+              }
             }
           }
         ]
@@ -21,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "dda5906721ccadea",
+    "id": "33ec46be3394bc6e",
     "type": "split",
     "children": [
       {
-        "id": "d7acb0a7b8a8fc6f",
+        "id": "5540ce42c4ec8c93",
         "type": "tabs",
         "children": [
           {
-            "id": "14945ab46eb58707",
+            "id": "62e649534c1ac254",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +41,7 @@
             }
           },
           {
-            "id": "ab8615eebcbff58f",
+            "id": "25dc29c1bd843e3d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +56,7 @@
             }
           },
           {
-            "id": "a65d18b8500e513f",
+            "id": "6facaf85b5c84f84",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,19 +70,20 @@
     "width": 300
   },
   "right": {
-    "id": "2d6700604ddd1f39",
+    "id": "3225e82b4080fee4",
     "type": "split",
     "children": [
       {
-        "id": "8fb7e1e8752ab742",
+        "id": "9fa906d145f660e0",
         "type": "tabs",
         "children": [
           {
-            "id": "fccd3dd5e7a9c004",
+            "id": "72c30b5d87a53da4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sakila-en.a4.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +95,19 @@
             }
           },
           {
-            "id": "f41dfa5d69eeaf74",
+            "id": "4048514861ad5df5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sakila-en.a4.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4166867910030ec0",
+            "id": "f1432b05c67f0f4e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +118,13 @@
             }
           },
           {
-            "id": "38ab8fa3f4b47147",
+            "id": "8f13c4bb9a161dd5",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sakila-en.a4.pdf"
+              }
             }
           }
         ]
@@ -138,16 +144,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14945ab46eb58707",
-  "lastOpenFiles": [
-    "week4./src/main/java/org/example/four/two/ex2.md",
-    "week4./src/main/java/org/example/four/two/ex3-4.md",
-    "week4./src/main/java/org/example/four/two/image/img_8.png",
-    "week4./src/main/java/org/example/four/two/ex5.md",
-    "week4./src/main/java/org/example/four/two/img_6.png",
-    "week4./src/main/java/org/example/four/two/ex6.md",
-    "week4./src/main/java/org/example/four/two/ex1.md",
-    "week4./src/main/java/org/example/four/two/ex1.html",
-    "week4./src/main/java/org/example/four/one/mysql_overview.md"
-  ]
+  "active": "62e649534c1ac254",
+  "lastOpenFiles": []
 }
