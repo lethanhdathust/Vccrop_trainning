@@ -11,11 +11,9 @@
             "id": "9752f3ff259d1b8d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Project8.1/REPORT.md",
-                "mode": "source",
-                "source": false
+                "file": "Project8.1/images/img_4.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project8.1/REPORT.md",
+                "file": "Project8.1/images/img_4.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project8.1/REPORT.md",
+                "file": "Project8.1/images/img_4.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project8.1/REPORT.md"
+                "file": "Project8.1/images/img_4.png"
               }
             }
           }
@@ -146,13 +144,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "056b087eabe52fa9",
+  "active": "9752f3ff259d1b8d",
   "lastOpenFiles": [
+    "Project8.2/images/Pasted image 20240108160538 1.png",
     "consistency-report.md",
     "Project8.1/REPORT.md",
     "Project8.1/images/img_4.png",
     "Project8.1/images/Pasted image 20240104223851.png",
-    "Project8.2/images/Pasted image 20240107130716.png",
+    "Project8.2/images/Pasted image 20240107130716 1.png",
     "Project8.2/REPORT.md",
     "Project8.1/Code",
     "Project8.1/images/Pasted image 20240105105854.png",
