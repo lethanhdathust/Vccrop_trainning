@@ -253,7 +253,7 @@ ssh-copy-id -i $HOME/.ssh/id_rsa.pub hdoop@data-node2
 
 #### Remove the dfsdata folder where save the name node and data node in namenode , data-node1 and data-node2
 
- ![[Pasted image 20240104223851.png]]
+ ![](images/Pasted%20image%2020240104223851.png)
 
 
 ```
@@ -298,28 +298,28 @@ jps
 
 ##### In name node
 
-![[Pasted image 20240104230239.png]]
+![](images/Pasted%20image%2020240104230239.png)
 
 ### In data node 1 
 
-![[Pasted image 20240104230313.png]]
-![[Pasted image 20240104230332.png]]
+![](images/Pasted%20image%2020240104230313.png)
+![](images/Pasted%20image%2020240104230332.png)
 
 ##### In data node 2
 
-![[Pasted image 20240104230351.png]]
+![](images/Pasted%20image%2020240104230351.png)
 ### Project Word-Count with one node
 ![img_6.png](images/img_6.png)
 #### The interface of Name Node
 
 http://localhost:9870/dfshealth.html#tab-datanode
 
-![[Pasted image 20240104231224.png]]
+![](images/Pasted%20image%2020240104231224.png)
 
 
 #### The interface of ResourceManager
 
-![[Pasted image 20240105105854.png]]
+![](images/Pasted%20image%2020240105105854.png)
 
 - First we built the jar file 
 ```agsl
@@ -355,7 +355,7 @@ hadoop jar target/word-count-1.0-SNAPSHOT.jar org.example.WordCount hdfs://local
 hadoop jar target/word-count-1.0-SNAPSHOT.jar org.example.WordCount hdfs://master:9000/input.txt hdfs://master:9000/output.txt 
 ```
 
-![[Pasted image 20240105105725.png]]
+![](images/Pasted%20image%2020240105105725.png)
 
 - Using this to check the output
 ```agsl
@@ -363,7 +363,7 @@ hdfs dfs -cat /output.txt/part-r-00000
 
 ```
 
-![[Pasted image 20240105105736.png]]
+![](images/Pasted%20image%2020240105105736.png)
 
 
 
@@ -411,7 +411,7 @@ spark-submit --class org.apache.spark.examples.SparkPi spark/examples/jars/spark
 ```
 
 - Result
-![[Pasted image 20240105111240.png]]
+![](images/Pasted%20image%2020240105111240.png)
 
 
 #### Word-count project with spark on yarn
@@ -444,7 +444,7 @@ val data2=sc.textFile("hdfs://master:9000/spark/input.txt");
 
 ```
 - Check the RDD 
-![[Pasted image 20240105171303.png]]
+![](images/Pasted%20image%2020240105171303.png)
 
 - Map and Reducer the data
 
@@ -466,7 +466,7 @@ reducedata.collect;
 
  Result
  
-![[Pasted image 20240105171925.png]]
+![](images/Pasted%20image%2020240105171925.png)
 
 
 

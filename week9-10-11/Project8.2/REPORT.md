@@ -144,8 +144,8 @@ spark.network.timeout			800
 
 ##### Start Spark and hadoop
 
-![[Pasted image 20240108160525.png]]
-![[Pasted image 20240108160538.png]]
+![](images/Pasted%20image%2020240108160525.png)
+![](images/Pasted%20image%2020240108160538.png)
 ### 1. Create file parquet with 1.000.000 records
 #### Running Jupyter
 
@@ -187,10 +187,10 @@ spark.stop()
 ```
 
 - Running code in jyputer
-![[Pasted image 20240107130749.png]]
+![](images/Pasted%20image%2020240107130749.png)
 - The data is saved in hdfs
 
-![[Pasted image 20240107130716.png]]
+![](images/Pasted%20image%2020240107130716.png)
 
 ### 3. Using pyspark to read file in notebook
 
@@ -211,7 +211,7 @@ spark.stop()
 ```
 
 - Result
-![[Pasted image 20240107131538.png]]
+![](images/Pasted%20image%2020240107131538.png)
 
 ### 3.1 Using Spark to run in standlone mode 
 
@@ -235,14 +235,14 @@ spark.stop()
 
 ```
 
-![[Pasted image 20240108103506.png]]
+![](images/Pasted%20image%2020240108103506.png)
 - Spark Master
-![[Pasted image 20240108104240.png]]
+![](images/Pasted%20image%2020240108104240.png)
 
 - Application
-![[Pasted image 20240108104259.png]]
+![](images/Pasted%20image%2020240108104259.png)
 
-![[Pasted image 20240108113550.png]]
+![](images/Pasted%20image%2020240108113550.png)
 ### 3.2 Using Spark to run in yarn mode 
 
 
@@ -269,14 +269,14 @@ spark.stop()
 
 ```
 
-![[Pasted image 20240108114753.png]]
+![](images/Pasted%20image%2020240108114753.png)
 
 - Spark application run on Yarn 
 
-![[Pasted image 20240108114826.png]]
+![](images/Pasted%20image%2020240108114826.png)
 
 - Read the Spark history
-![[Pasted image 20240108114934.png]]
+![](images/Pasted%20image%2020240108114934.png)
 
 
 #### 4. Visualize with Matplotlib
@@ -327,13 +327,13 @@ plt.show()
 spark.stop()
 ```
 
-![[Pasted image 20240108142425.png]]
+![](images/Pasted%20image%2020240108142425.png)
 
 - Check Yarn
-![[Pasted image 20240108142454.png]]
+![](images/Pasted%20image%2020240108142454.png)
 
 - Check Spark history
-![[Pasted image 20240108142514.png]]
+![](images/Pasted%20image%2020240108142514.png)
 
 #### 5. Run this app in Yarn mode
 
@@ -380,15 +380,15 @@ spark-submit --deploy-mode cluster --master yarn --class com.example.App target/
 ```
 
 - Logs
-![[Pasted image 20240108155233.png]]
+![](images/Pasted%20image%2020240108155233.png)
 
 - Check YARN 
-![[Pasted image 20240108155258.png]]
+![](images/Pasted%20image%2020240108155258.png)
 
 - Check logs in YARN
-![[Pasted image 20240108155332.png]]
+![](images/Pasted%20image%2020240108155332.png)
 
 - Check Spark history
-![[Pasted image 20240108155356.png]]
+![](images/Pasted%20image%2020240108155356.png)
 
-![[Pasted image 20240108155542.png]]
+![](images/Pasted%20image%2020240108155542.png)
