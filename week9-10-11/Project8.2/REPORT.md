@@ -1,3 +1,6 @@
+1.Setup
+![Alt text](image-1.png)
+
 #### 0. Configure Spark 
 
 ##### Edit the .bashrc file
